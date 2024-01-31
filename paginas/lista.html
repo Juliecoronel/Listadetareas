@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="../estilos/lista.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Cabin:wght@500&family=Nunito:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="contenedor">
+        <div id="contPrincipio">
+            <h3 class="fecha"></h3>
+            <h1 class="saludoNom"></h1>
+            <h3 class="entusiasmo">Una cosa a la vez, tú puedes!</h3>
+        </div>
+
+        <div id="contIngTarea">
+            <h4 class="titIng">Ingresa tu tarea</h4>
+            <div id="interaccion">
+                <input type="text" class="ingTarea" placeholder="¡Aquí!">
+                <button class="enviarTarea">Enviar</button>
+            </div>
+        </div>
+
+        <div id="todasTareas">
+            
+        </div>
+        <hr>
+        <h2 class="tareasCompletadas">Tareas Completadas</h2>
+        <div id="contTareasComp"></div>
+    </div>
+
+    <script src="../js/lista.js"></script>
+
+</body>
+</html>
