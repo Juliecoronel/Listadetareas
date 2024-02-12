@@ -13,7 +13,7 @@ let id;
 let arrayTareas;
 
 if(!localStorage.getItem("Nombre")){
-    window.open('../index.html', '_self')
+    window.open('index.html', '_self')
 }
 
 
@@ -34,7 +34,7 @@ function agregarTarea(tarea, id, realizada, eliminada){
                             <img src=${realizar} alt="" class=${claseImg} data="realizada" id=${id}>
                             <p class="tarea ${linea}">${tarea}</p>
                         </div>
-                        <img src="../img/basura.png" alt="" class="basura" data="eliminada" id=${id}>
+                        <img src="./img/basura.png" alt="" class="basura" data="eliminada" id=${id}>
                     </div>`
 
     if(realizada){
