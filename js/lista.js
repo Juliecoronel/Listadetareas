@@ -13,7 +13,7 @@ let id;
 let arrayTareas;
 
 if(!localStorage.getItem("Nombre")){
-    window.open('../paginas/index.html', '_self')
+    window.open('../index.html', '_self')
 }
 
 

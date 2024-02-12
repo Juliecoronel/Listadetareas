@@ -4,7 +4,7 @@ const ingresarNombre = document.getElementById('ingresarNombre');
 const advNombre = document.createElement('h3');
 
 if(localStorage.getItem("Nombre")){
-    window.open('../paginas/lista.html', '_self')
+    window.open('../lista.html', '_self')
 }
 
 enviarNombre.addEventListener("click", ()=>{
@@ -12,7 +12,7 @@ enviarNombre.addEventListener("click", ()=>{
     if(nombre){
         localStorage.setItem("Nombre", nombre);
         advNombre.remove();
-        window.open('../paginas/lista.html', '_self')
+        window.open('../lista.html', '_self')
     } else{
         advNombre.innerText = '¡Tienes que ingresar un nombre!';
         advNombre.classList.add("advNombre");
@@ -26,7 +26,7 @@ inputNombre.addEventListener("keypress", (e)=>{
         if(nombre){
             localStorage.setItem("Nombre", nombre);
             advNombre.remove();
-            window.open('../paginas/lista.html', '_self')
+            window.open('../lista.html', '_self')
         } else{
             advNombre.innerText = '¡Tienes que ingresar un nombre!';
             advNombre.classList.add("advNombre");
