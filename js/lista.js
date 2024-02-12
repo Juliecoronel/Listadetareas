@@ -4,11 +4,11 @@ const ingTarea = document.querySelector('.ingTarea');
 const enviarTarea = document.querySelector('.enviarTarea');
 const todasTareas = document.getElementById('todasTareas');
 const contTareasComp = document.getElementById('contTareasComp');
-const hecho = 'circulo-check.png'
-const noHecho = 'circulo.png'
-const claseHecha = 'circuloCheck'
-const claseNoHecha = 'circulo'
-const lineaMedio = 'tareaHecha'
+const hecho = './img/circulo-check.png';
+const noHecho = './img/circulo.png';
+const claseHecha = 'circuloCheck';
+const claseNoHecha = 'circulo';
+const lineaMedio = 'tareaHecha';
 let id;
 let arrayTareas;
 
