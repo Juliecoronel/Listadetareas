@@ -21,7 +21,7 @@ let dia = new Date();
 fecha.innerHTML = dia.toLocaleDateString("es-AR", {weekday:"long", month:"long", day:"numeric"})
 
 const nombre = localStorage.getItem("Nombre");
-saludoNom.innerHTML = `Hola ${nombre}!`
+saludoNom.innerHTML = `¡Hola ${nombre}!`
 
 function agregarTarea(tarea, id, realizada, eliminada){
     if(eliminada){return}
